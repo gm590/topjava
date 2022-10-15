@@ -49,12 +49,11 @@
             <td>${TimeUtil.format(meal.dateTime)}</td>
             <td>${meal.description}</td>
             <td>${meal.calories}</td>
-            <td></td>
-            <td></td>
+            <td><a href="?action=update&id=${meal.id}">update</a></td>
+            <td><a href="?action=delete&id=${meal.id}">delete</a></td>
         </tr>
-        <!--ряд с ячейками тела таблицы-->
     </c:forEach>
 </table>
-
+<a href="?action=add">add meal</a>
 </body>
 </html>
