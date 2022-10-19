@@ -31,7 +31,7 @@ public class InMemoryBaseRepository<T extends AbstractBaseEntity> {
         return repository.get(id);
     }
 
-    public Collection<T> getAll() {
+    public Collection<T> getCollection() {
         return repository.values();
     }
 }
