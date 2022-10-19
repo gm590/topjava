@@ -10,8 +10,8 @@ import java.util.stream.Collectors;
 
 @Repository
 public class InMemoryUserRepository extends InMemoryBaseRepository<User> implements UserRepository {
-    private static final int USER_ID = 1;
-    private static final int ADMIN_ID = 2;
+    public static final int USER_ID = 1;
+    public  static final int ADMIN_ID = 2;
 
     @Override
     public List<User> getAll() {
