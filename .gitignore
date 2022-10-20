@@ -5,4 +5,4 @@ target
 log
 *.patch
 lessons
-
+src/main/resources/db/postgres.properties
